@@ -1,0 +1,28 @@
+#demandArrayContainer {
+  margin-top: 20px;
+  padding: 18px 20px;
+  background: rgba(245,245,255,0.85);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  text-align: center;
+}
+#demandArrayContainer label {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
+}
+.demandArrayInputStyle {
+  width: 60px;
+  padding: 7px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  background: #f4f4f4;
+  margin-right: 8px;
+  transition: border 0.2s;
+}
+.demandArrayInputStyle:focus {
+  border: 1.5px solid #6c63ff;
+  background: #fff;
+} 

@@ -1,0 +1,29 @@
+.matrixContainer {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 6px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+td {
+  padding: 0;
+}
+.matrixInputStyle {
+  width: 56px;
+  padding: 7px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  background: #f4f4f4;
+  transition: border 0.2s;
+}
+.matrixInputStyle:focus {
+  border: 1.5px solid #6c63ff;
+  background: #fff;
+} 

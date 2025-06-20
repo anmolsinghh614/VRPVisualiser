@@ -1,0 +1,14 @@
+.graphContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  width: 100%;
+}
+.title {
+  color: #6c63ff;
+  font-size: 1.3rem;
+  margin: 20px 0 10px 0;
+  font-weight: 600;
+} 

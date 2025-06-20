@@ -1,0 +1,244 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* A) Header */
+.Heading {
+  background-color: #1a1a1a;
+  color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* B) Body */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to right, rgba(30, 30, 30, 0.9), rgba(50, 50, 50, 0.9)), 
+              url("https://eliteextra.com/wp-content/uploads/2022/06/AdobeStock_301437053-1536x810.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: #f4f4f4;
+}
+
+h2 {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #f4f4f4;
+  border-radius: 8px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+/* i) City and Vehicle */
+.inputData {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.inputData > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#submitButton {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* ii) Matrix */
+#matrixTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.matrixContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.matrixCellStyle {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.matrixInputStyle {
+  width: 40px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#matrixButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#matrixButton:hover {
+  background-color: #5752d3;
+}
+
+/* iii) Demand Array */
+#demandArrayContainer {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  text-align: center;
+}
+
+#demandArrayTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f4f4f4;
+}
+
+.demandArrayCellStyle {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.demandArrayInputStyle {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* iv) Algorithm Selector */
+#algorithmSelector {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#algorithmSelectorTitle {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+#algorithmButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#algorithmButton:hover {
+  background-color: #5752d3;
+}
+
+/* v) Results */
+#resultsContainer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  width: 80%;
+}
+
+/* vi) Path and Animation */
+#animationContainer {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+#animationBox {
+  height: 90%;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+#animationButton {
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #6c63ff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#animationButton:hover {
+  background-color: #5752d3;
+}
+
+/* vii) Graph */
+.title {
+  color: #f4f4f4;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+#graphContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .inputData {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .matrixContainer {
+    flex-direction: column;
+  }
+}

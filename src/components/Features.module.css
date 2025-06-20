@@ -1,0 +1,31 @@
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  margin: 36px 0 24px 0;
+  flex-wrap: wrap;
+}
+.featureCard {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(60,60,120,0.08);
+  padding: 28px 24px 20px 24px;
+  min-width: 220px;
+  max-width: 260px;
+  text-align: center;
+  transition: transform 0.15s;
+}
+.featureCard:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(60,60,120,0.13);
+}
+.featureCard h3 {
+  margin: 16px 0 8px 0;
+  font-size: 1.18rem;
+  color: #6c63ff;
+  font-weight: 700;
+}
+.featureCard p {
+  color: #444;
+  font-size: 1rem;
+} 

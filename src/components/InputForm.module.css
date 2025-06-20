@@ -1,0 +1,28 @@
+.inputData {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+  margin: 32px 0 16px 0;
+  flex-wrap: wrap;
+}
+.inputData label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.inputData input[type="number"] {
+  width: 120px;
+  padding: 8px 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f9f9f9;
+  transition: border 0.2s;
+}
+.inputData input[type="number"]:focus {
+  border: 1.5px solid #6c63ff;
+  outline: none;
+  background: #fff;
+} 
